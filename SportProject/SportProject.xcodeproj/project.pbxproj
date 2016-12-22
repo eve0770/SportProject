@@ -8,22 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		AFDD12CE1E0BCD9200BA3753 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDD12CD1E0BCD9200BA3753 /* AppDelegate.swift */; };
-		AFDD12D01E0BCD9200BA3753 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDD12CF1E0BCD9200BA3753 /* ViewController.swift */; };
+		AFDD12D01E0BCD9200BA3753 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDD12CF1E0BCD9200BA3753 /* LoginViewController.swift */; };
 		AFDD12D31E0BCD9300BA3753 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFDD12D11E0BCD9300BA3753 /* Main.storyboard */; };
 		AFDD12D51E0BCD9300BA3753 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFDD12D41E0BCD9300BA3753 /* Assets.xcassets */; };
 		AFDD12D81E0BCD9300BA3753 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFDD12D61E0BCD9300BA3753 /* LaunchScreen.storyboard */; };
 		AFDD12E01E0BCE1300BA3753 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AFDD12DF1E0BCE1300BA3753 /* GoogleService-Info.plist */; };
+		AFDD12E51E0BDC3000BA3753 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDD12E41E0BDC3000BA3753 /* ProfileViewController.swift */; };
+		AFDD12E71E0BDCCE00BA3753 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDD12E61E0BDCCE00BA3753 /* SignUpViewController.swift */; };
+		AFDD12E91E0BDCEC00BA3753 /* MatchMakingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDD12E81E0BDCEC00BA3753 /* MatchMakingViewController.swift */; };
+		AFDD12EB1E0BDEF700BA3753 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDD12EA1E0BDEF700BA3753 /* HomeViewController.swift */; };
+		AFDD12ED1E0BDF0500BA3753 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDD12EC1E0BDF0500BA3753 /* TeamViewController.swift */; };
+		AFDD12EF1E0BDF1200BA3753 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDD12EE1E0BDF1200BA3753 /* ChatViewController.swift */; };
+		E508760A468D6E16F95696AC /* Pods_SportProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513BE59EE5B36984878DCF19 /* Pods_SportProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		513BE59EE5B36984878DCF19 /* Pods_SportProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SportProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFDD12CA1E0BCD9100BA3753 /* SportProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFDD12CD1E0BCD9200BA3753 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AFDD12CF1E0BCD9200BA3753 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFDD12CF1E0BCD9200BA3753 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AFDD12D21E0BCD9300BA3753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFDD12D41E0BCD9300BA3753 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFDD12D71E0BCD9300BA3753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFDD12D91E0BCD9300BA3753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFDD12DF1E0BCE1300BA3753 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AFDD12E41E0BDC3000BA3753 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		AFDD12E61E0BDCCE00BA3753 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		AFDD12E81E0BDCEC00BA3753 /* MatchMakingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchMakingViewController.swift; sourceTree = "<group>"; };
+		AFDD12EA1E0BDEF700BA3753 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AFDD12EC1E0BDF0500BA3753 /* TeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
+		AFDD12EE1E0BDF1200BA3753 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		D132442992D4319F52B9C9BD /* Pods-SportProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SportProject/Pods-SportProject.debug.xcconfig"; sourceTree = "<group>"; };
+		F307DBFBE1A91C5B8D59D78B /* Pods-SportProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SportProject/Pods-SportProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E508760A468D6E16F95696AC /* Pods_SportProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14FDB365C13BA820BB899F12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D132442992D4319F52B9C9BD /* Pods-SportProject.debug.xcconfig */,
+				F307DBFBE1A91C5B8D59D78B /* Pods-SportProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AFDD12C11E0BCD8F00BA3753 = {
 			isa = PBXGroup;
 			children = (
 				AFDD12CC1E0BCD9100BA3753 /* SportProject */,
 				AFDD12CB1E0BCD9100BA3753 /* Products */,
+				14FDB365C13BA820BB899F12 /* Pods */,
+				DF9C7681F3A6FD1B5D7C8C91 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +84,8 @@
 		AFDD12CC1E0BCD9100BA3753 /* SportProject */ = {
 			isa = PBXGroup;
 			children = (
+				AFDD12E11E0BDBB600BA3753 /* ViewControllers */,
 				AFDD12CD1E0BCD9200BA3753 /* AppDelegate.swift */,
-				AFDD12CF1E0BCD9200BA3753 /* ViewController.swift */,
 				AFDD12D11E0BCD9300BA3753 /* Main.storyboard */,
 				AFDD12D41E0BCD9300BA3753 /* Assets.xcassets */,
 				AFDD12D61E0BCD9300BA3753 /* LaunchScreen.storyboard */,
@@ -67,6 +95,28 @@
 			path = SportProject;
 			sourceTree = "<group>";
 		};
+		AFDD12E11E0BDBB600BA3753 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AFDD12CF1E0BCD9200BA3753 /* LoginViewController.swift */,
+				AFDD12E41E0BDC3000BA3753 /* ProfileViewController.swift */,
+				AFDD12E61E0BDCCE00BA3753 /* SignUpViewController.swift */,
+				AFDD12E81E0BDCEC00BA3753 /* MatchMakingViewController.swift */,
+				AFDD12EA1E0BDEF700BA3753 /* HomeViewController.swift */,
+				AFDD12EC1E0BDF0500BA3753 /* TeamViewController.swift */,
+				AFDD12EE1E0BDF1200BA3753 /* ChatViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DF9C7681F3A6FD1B5D7C8C91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				513BE59EE5B36984878DCF19 /* Pods_SportProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +124,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFDD12DC1E0BCD9300BA3753 /* Build configuration list for PBXNativeTarget "SportProject" */;
 			buildPhases = (
+				82DF117EB3B0C5C229A91F25 /* [CP] Check Pods Manifest.lock */,
 				AFDD12C61E0BCD9100BA3753 /* Sources */,
 				AFDD12C71E0BCD9100BA3753 /* Frameworks */,
 				AFDD12C81E0BCD9100BA3753 /* Resources */,
+				67B8CFC028E994428877FF5F /* [CP] Embed Pods Frameworks */,
+				2328E14D09E932F87B3B812C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,13 +188,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2328E14D09E932F87B3B812C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SportProject/Pods-SportProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67B8CFC028E994428877FF5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SportProject/Pods-SportProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82DF117EB3B0C5C229A91F25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AFDD12C61E0BCD9100BA3753 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFDD12D01E0BCD9200BA3753 /* ViewController.swift in Sources */,
+				AFDD12D01E0BCD9200BA3753 /* LoginViewController.swift in Sources */,
+				AFDD12E91E0BDCEC00BA3753 /* MatchMakingViewController.swift in Sources */,
+				AFDD12EF1E0BDF1200BA3753 /* ChatViewController.swift in Sources */,
+				AFDD12E51E0BDC3000BA3753 /* ProfileViewController.swift in Sources */,
+				AFDD12E71E0BDCCE00BA3753 /* SignUpViewController.swift in Sources */,
 				AFDD12CE1E0BCD9200BA3753 /* AppDelegate.swift in Sources */,
+				AFDD12EB1E0BDEF700BA3753 /* HomeViewController.swift in Sources */,
+				AFDD12ED1E0BDF0500BA3753 /* TeamViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +369,7 @@
 		};
 		AFDD12DD1E0BCD9300BA3753 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D132442992D4319F52B9C9BD /* Pods-SportProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SportProject/Info.plist;
@@ -274,6 +382,7 @@
 		};
 		AFDD12DE1E0BCD9300BA3753 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F307DBFBE1A91C5B8D59D78B /* Pods-SportProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SportProject/Info.plist;
@@ -303,6 +412,7 @@
 				AFDD12DE1E0BCD9300BA3753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
