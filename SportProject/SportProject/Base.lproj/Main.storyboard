@@ -51,7 +51,7 @@
                                 <rect key="frame" x="160" y="526" width="55" height="30"/>
                                 <state key="normal" title="Sign Up"/>
                                 <connections>
-                                    <action selector="signUpButtonPressed:" destination="bYa-jL-W2k" eventType="touchUpInside" id="Dov-mT-5ea"/>
+                                    <action selector="signUpButton:" destination="bYa-jL-W2k" eventType="touchUpInside" id="2Kf-Op-qCy"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sportii" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ev-gE-73p">
@@ -63,6 +63,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G8F-qo-Y66">
                                 <rect key="frame" x="167" y="427" width="42" height="30"/>
                                 <state key="normal" title="Log In"/>
+                                <connections>
+                                    <action selector="logInButton:" destination="bYa-jL-W2k" eventType="touchUpInside" id="Bjd-6w-2Uf"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't have an account ? " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="db8-Oj-St4">
                                 <rect key="frame" x="93" y="477" width="188" height="21"/>
@@ -98,7 +101,7 @@
                         <segue destination="eIj-iP-6S0" kind="show" identifier="signUpSegue" id="2XY-Zj-1QJ">
                             <nil key="action"/>
                         </segue>
-                        <segue destination="ePB-6b-TIH" kind="show" id="85i-pu-1Cd"/>
+                        <segue destination="ePB-6b-TIH" kind="show" identifier="toHome" id="85i-pu-1Cd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KZN-Yf-rb0" sceneMemberID="firstResponder"/>
@@ -142,11 +145,7 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <items>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="4cx-Sj-T5H"/>
-                                    <barButtonItem title="Find" id="Kaa-hV-fh7">
-                                        <connections>
-                                            <action selector="teamFindButton:" destination="s3N-H4-Nm0" id="dsW-aI-IQG"/>
-                                        </connections>
-                                    </barButtonItem>
+                                    <barButtonItem title="Find" id="Kaa-hV-fh7"/>
                                 </items>
                             </toolbar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="73" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ONH-Ka-eBS">
@@ -443,7 +442,7 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <items/>
                             </toolbar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Osh-yQ-yJl">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noone" translatesAutoresizingMaskIntoConstraints="NO" id="Osh-yQ-yJl">
                                 <rect key="frame" x="137" y="104" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="IlZ-YV-zbr"/>
@@ -822,7 +821,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mi2-Ci-pFD">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="834"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3Lk-cS-jov">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noone" translatesAutoresizingMaskIntoConstraints="NO" id="3Lk-cS-jov">
                                                 <rect key="frame" x="137" y="84" width="100" height="100"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="100" id="FTk-lM-Adv"/>
@@ -900,7 +899,11 @@
                                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tfp-0Z-AfK">
                                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                                 <items>
-                                                    <barButtonItem image="back" id="sVw-3V-IBr"/>
+                                                    <barButtonItem image="back" id="sVw-3V-IBr">
+                                                        <connections>
+                                                            <action selector="backButton:" destination="eIj-iP-6S0" id="9Mc-YY-yZ8"/>
+                                                        </connections>
+                                                    </barButtonItem>
                                                 </items>
                                             </toolbar>
                                         </subviews>
@@ -961,10 +964,63 @@
                             <constraint firstItem="PVx-0h-rmm" firstAttribute="leading" secondItem="d9x-Bm-x9N" secondAttribute="leading" id="tU9-Pn-WGQ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cr8AccButton" destination="bEQ-51-9Is" id="fWc-fE-KDk"/>
+                        <outlet property="updateButton" destination="RZ0-dR-18R" id="aCU-ri-gsk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9EG-lV-QZP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="990" y="-493"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zvV-T9-JPU">
+            <objects>
+                <viewController id="itx-ZC-4Sy" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CvZ-C9-AVf"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xxc-Rp-Gyb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kyh-7R-XF7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9CQ-bP-dtY">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem image="back" id="DPP-U2-GUY"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="aeU-gL-dfk"/>
+                                    <barButtonItem image="confirm" id="9hP-gi-oGI"/>
+                                </items>
+                            </toolbar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7GF-ml-nS4">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Photos" id="1dA-kP-DH5"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="ILl-8y-NLA"/>
+                                    <barButtonItem systemItem="camera" id="F33-2H-Tr6"/>
+                                </items>
+                            </toolbar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fLK-8T-pQf">
+                                <rect key="frame" x="67" y="213" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="e0N-fg-aoP"/>
+                                    <constraint firstAttribute="width" constant="240" id="lWL-XH-gWl"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fLK-8T-pQf" firstAttribute="centerX" secondItem="kyh-7R-XF7" secondAttribute="centerX" id="QfA-zG-v68"/>
+                            <constraint firstItem="fLK-8T-pQf" firstAttribute="centerY" secondItem="kyh-7R-XF7" secondAttribute="centerY" id="g9O-wB-XAO"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ao4-dT-gn0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1759" y="-493"/>
         </scene>
         <!--Team-->
         <scene sceneID="Fo3-ta-ki2">
@@ -1289,14 +1345,6 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Team" image="team" id="xpV-J1-ZxZ"/>
-                    <connections>
-                        <outlet property="numberOfMembersLabel" destination="zVY-1A-wpC" id="fu3-Ht-bWk"/>
-                        <outlet property="teamBaseLabel" destination="v99-sr-KTA" id="Lu9-f5-0b4"/>
-                        <outlet property="teamCaptainLabel" destination="xYc-Xd-wGU" id="Kji-Xe-hIC"/>
-                        <outlet property="teamContactLabel" destination="Bl2-Wm-738" id="WFw-NV-uyO"/>
-                        <outlet property="teamNameLabel" destination="iCK-nU-c5T" id="Cwi-l2-XVT"/>
-                        <outlet property="teamProImage" destination="XLE-9I-nLf" id="FMA-Ln-se7"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tib-e7-mXA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1402,11 +1450,7 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="64J-Z2-0rU">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <items>
-                                    <barButtonItem title="Home" id="Z7t-l8-led">
-                                        <connections>
-                                            <action selector="homeButton:" destination="rog-7O-M5e" id="dp5-sJ-zFp"/>
-                                        </connections>
-                                    </barButtonItem>
+                                    <barButtonItem title="Home" id="Z7t-l8-led"/>
                                 </items>
                             </toolbar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="72" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Y5G-rM-sN4">
@@ -1511,8 +1555,10 @@
     <resources>
         <image name="back" width="30" height="30"/>
         <image name="chat" width="25" height="25"/>
+        <image name="confirm" width="64" height="64"/>
         <image name="home" width="29" height="29"/>
         <image name="match" width="30" height="30"/>
+        <image name="noone" width="112" height="112"/>
         <image name="profile" width="30" height="30"/>
         <image name="team" width="29" height="29"/>
     </resources>
