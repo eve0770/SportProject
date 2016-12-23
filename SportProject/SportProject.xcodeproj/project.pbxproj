@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF447FE21E0CC66E0018C065 /* ChatPlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF447FE11E0CC66E0018C065 /* ChatPlayerTableViewCell.swift */; };
+		AF447FE41E0CC8940018C065 /* TeamPlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF447FE31E0CC8940018C065 /* TeamPlayerTableViewCell.swift */; };
+		AF447FE61E0CC8A70018C065 /* TeamUpcomingMatchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF447FE51E0CC8A70018C065 /* TeamUpcomingMatchTableViewCell.swift */; };
+		AF447FE81E0CC8B70018C065 /* TeamPastMatchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF447FE71E0CC8B70018C065 /* TeamPastMatchTableViewCell.swift */; };
+		AF447FEA1E0CCB8F0018C065 /* HomePlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF447FE91E0CCB8F0018C065 /* HomePlayerTableViewCell.swift */; };
+		AF447FEC1E0CCBA80018C065 /* HomeUpcomingMatchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF447FEB1E0CCBA80018C065 /* HomeUpcomingMatchTableViewCell.swift */; };
+		AF447FEE1E0CCBEB0018C065 /* MatchTeamListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF447FED1E0CCBEB0018C065 /* MatchTeamListTableViewCell.swift */; };
+		AF447FF01E0CCC1F0018C065 /* FindTeamTeamListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF447FEF1E0CCC1F0018C065 /* FindTeamTeamListTableViewCell.swift */; };
+		AF447FF21E0CCC780018C065 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF447FF11E0CCC780018C065 /* MainTabBarViewController.swift */; };
 		AFDD12CE1E0BCD9200BA3753 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDD12CD1E0BCD9200BA3753 /* AppDelegate.swift */; };
 		AFDD12D01E0BCD9200BA3753 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDD12CF1E0BCD9200BA3753 /* LoginViewController.swift */; };
 		AFDD12D31E0BCD9300BA3753 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFDD12D11E0BCD9300BA3753 /* Main.storyboard */; };
@@ -24,6 +33,15 @@
 
 /* Begin PBXFileReference section */
 		513BE59EE5B36984878DCF19 /* Pods_SportProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SportProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF447FE11E0CC66E0018C065 /* ChatPlayerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatPlayerTableViewCell.swift; sourceTree = "<group>"; };
+		AF447FE31E0CC8940018C065 /* TeamPlayerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamPlayerTableViewCell.swift; sourceTree = "<group>"; };
+		AF447FE51E0CC8A70018C065 /* TeamUpcomingMatchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamUpcomingMatchTableViewCell.swift; sourceTree = "<group>"; };
+		AF447FE71E0CC8B70018C065 /* TeamPastMatchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamPastMatchTableViewCell.swift; sourceTree = "<group>"; };
+		AF447FE91E0CCB8F0018C065 /* HomePlayerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePlayerTableViewCell.swift; sourceTree = "<group>"; };
+		AF447FEB1E0CCBA80018C065 /* HomeUpcomingMatchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeUpcomingMatchTableViewCell.swift; sourceTree = "<group>"; };
+		AF447FED1E0CCBEB0018C065 /* MatchTeamListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchTeamListTableViewCell.swift; sourceTree = "<group>"; };
+		AF447FEF1E0CCC1F0018C065 /* FindTeamTeamListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindTeamTeamListTableViewCell.swift; sourceTree = "<group>"; };
+		AF447FF11E0CCC780018C065 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		AFDD12CA1E0BCD9100BA3753 /* SportProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFDD12CD1E0BCD9200BA3753 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFDD12CF1E0BCD9200BA3753 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +81,35 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		AF447FDE1E0CBCF10018C065 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				AF447FE11E0CC66E0018C065 /* ChatPlayerTableViewCell.swift */,
+				AF447FE31E0CC8940018C065 /* TeamPlayerTableViewCell.swift */,
+				AF447FE51E0CC8A70018C065 /* TeamUpcomingMatchTableViewCell.swift */,
+				AF447FE71E0CC8B70018C065 /* TeamPastMatchTableViewCell.swift */,
+				AF447FE91E0CCB8F0018C065 /* HomePlayerTableViewCell.swift */,
+				AF447FEB1E0CCBA80018C065 /* HomeUpcomingMatchTableViewCell.swift */,
+				AF447FED1E0CCBEB0018C065 /* MatchTeamListTableViewCell.swift */,
+				AF447FEF1E0CCC1F0018C065 /* FindTeamTeamListTableViewCell.swift */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		AF447FDF1E0CBD010018C065 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		AF447FE01E0CBD060018C065 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
 		AFDD12C11E0BCD8F00BA3753 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +131,9 @@
 		AFDD12CC1E0BCD9100BA3753 /* SportProject */ = {
 			isa = PBXGroup;
 			children = (
+				AF447FE01E0CBD060018C065 /* Helper */,
+				AF447FDF1E0CBD010018C065 /* Modal */,
+				AF447FDE1E0CBCF10018C065 /* TableViewCell */,
 				AFDD12E11E0BDBB600BA3753 /* ViewControllers */,
 				AFDD12CD1E0BCD9200BA3753 /* AppDelegate.swift */,
 				AFDD12D11E0BCD9300BA3753 /* Main.storyboard */,
@@ -105,6 +155,7 @@
 				AFDD12EA1E0BDEF700BA3753 /* HomeViewController.swift */,
 				AFDD12EC1E0BDF0500BA3753 /* TeamViewController.swift */,
 				AFDD12EE1E0BDF1200BA3753 /* ChatViewController.swift */,
+				AF447FF11E0CCC780018C065 /* MainTabBarViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -241,6 +292,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF447FEA1E0CCB8F0018C065 /* HomePlayerTableViewCell.swift in Sources */,
+				AF447FE81E0CC8B70018C065 /* TeamPastMatchTableViewCell.swift in Sources */,
+				AF447FEC1E0CCBA80018C065 /* HomeUpcomingMatchTableViewCell.swift in Sources */,
+				AF447FF21E0CCC780018C065 /* MainTabBarViewController.swift in Sources */,
 				AFDD12D01E0BCD9200BA3753 /* LoginViewController.swift in Sources */,
 				AFDD12E91E0BDCEC00BA3753 /* MatchMakingViewController.swift in Sources */,
 				AFDD12EF1E0BDF1200BA3753 /* ChatViewController.swift in Sources */,
@@ -249,6 +304,11 @@
 				AFDD12CE1E0BCD9200BA3753 /* AppDelegate.swift in Sources */,
 				AFDD12EB1E0BDEF700BA3753 /* HomeViewController.swift in Sources */,
 				AFDD12ED1E0BDF0500BA3753 /* TeamViewController.swift in Sources */,
+				AF447FE21E0CC66E0018C065 /* ChatPlayerTableViewCell.swift in Sources */,
+				AF447FF01E0CCC1F0018C065 /* FindTeamTeamListTableViewCell.swift in Sources */,
+				AF447FEE1E0CCBEB0018C065 /* MatchTeamListTableViewCell.swift in Sources */,
+				AF447FE61E0CC8A70018C065 /* TeamUpcomingMatchTableViewCell.swift in Sources */,
+				AF447FE41E0CC8940018C065 /* TeamPlayerTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
